@@ -1,0 +1,27 @@
+#home {
+	background: url(../images/bg.jpg) 50% 0 repeat fixed; 
+	min-height: 1000px;
+	height: 1000px; 
+  margin: 0 auto; 
+ 	width: 100%; 
+  max-width: 1920px; 
+  position: relative;
+}
+
+#description {
+  top: 250px;
+}
+
+.title { 
+  height: 458px; 
+  font-family:'Raleway', sans-serif;
+  font-size: 80px;
+  color: white;
+  position: absolute; 
+  text-align: center; 
+  top: 100px; 
+  width: 100%; 
+  white-space: nowrap;
+}
+
+
