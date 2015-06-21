@@ -1,44 +1,37 @@
 #home {
 	background: url(../images/bg.jpg) 50% 0 repeat fixed; 
 	min-height: 1000px;
-	height: 1500px; 
+	height: 1600px; 
   margin: 0 0; 
  	width: 100%; 
-  max-width: 1500px; 
+  max-width: 1600px; 
   position: relative;
   padding: 0;
 }
 
 #description {
-  top: 250px;
+  padding-top: 5%;
 }
 
-.title { 
+.main { 
   font-family:'Raleway', sans-serif;
-  font-size: 95px;
   color: white;
   position: absolute;
   top: 3.5%;
   text-align: center; 
   width: 100%; 
+  font-size: 7em;
 }
 
 .small-text {
+  padding-top: 7%;
   color: white;
-  padding: 50px;
 }
 
 .icon {
-  height: 160px;
-  width: 160px;
-  float: right;
   transition: all .1s ease-in-out; 
 }
 
 .icon:hover {
-  transform: scale(1.15);
-}
-
-.all-icons {
-  position: static;
+  transform: scale(1.10);
 }
