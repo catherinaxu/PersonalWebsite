@@ -28,4 +28,6 @@ $(document).ready(function(){
     $("#facebook").click(function(event) {
         window.location.href = 'https://www.facebook.com/catherinaxu';
     });
+
+    
 });
