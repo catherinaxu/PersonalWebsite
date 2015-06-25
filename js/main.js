@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('section[data-type="background"]').each(function(){
+    $('body[data-type="background"]').each(function(){
         var $bgobj = $(this); // assigning the object
     
         $(window).scroll(function() {

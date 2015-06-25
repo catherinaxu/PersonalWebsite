@@ -1,12 +1,11 @@
 #home {
-	background: url(../images/bg.jpg) 50% 0 repeat fixed; 
-	min-height: 1000px;
-	height: 2000px; 
+	background: url(../images/bg.jpg) 100% 0 repeat fixed; 
   margin: 0 0; 
  	width: 100%; 
-  max-width: 1600px; 
+  height: 100%;
   position: relative;
   padding: 0;
+  background-size: cover;
 }
 
 #description {
@@ -23,9 +22,10 @@
   color: white;
   position: absolute;
   top: 3.5%;
+  padding-top: 3%;
   text-align: center; 
   width: 100%; 
-  font-size: 7em;
+  font-size: 6em;
 }
 
 .small-text {
@@ -36,8 +36,10 @@
 
 .icon {
   transition: all .1s ease-in-out; 
+  padding: 4%;
 }
 
 .icon:hover {
   transform: scale(1.10);
 }
+
